@@ -1,0 +1,18 @@
+top: 50%;
+transform: translateY(-50%);
+
+위에서부터 아래까지 딱 중간에 배치 가능
+transform: 변형
+trangition: 이행시키다
+translate: 바꾸다(옮기다)
+
+
+포폴
+https://boraportfolio2023.netlify.app/
+https://portfolio2023-rosy.vercel.app/ (형)
+
+내소개
+http://moon1126.pe.kr/portfolio_2023/index.html
+
+푸터 
+https://nykim.net/

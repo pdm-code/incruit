@@ -2,6 +2,14 @@
 
 /* 미디어쿼리 */
 
+/* 화면 너비 0 ~ 1276px */
+
+@media screen and (max-width: 1276px) {
+  .to-incruit .container .workSwiper .swiper-wrapper ul li {
+    width: calc(20% - 46px);
+  }
+}
+
 /* 화면 너비 0 ~ 1384px */
 
 @media screen and (max-width: 1384px) {
@@ -98,6 +106,10 @@
   .sol-detail-wrap .container .details .img-wrap {
     padding-left: 0;
   }
+
+  .to-incruit .container .workSwiper .swiper-wrapper ul li {
+    width: calc(25% - 48px);
+  }
 }
 
 /* 화면 너비 0 ~ 998px */
@@ -113,7 +125,15 @@
     width: 48%;
   }
 
+}
 
+/* 화면 너비 0 ~ 998px */
+
+@media screen and (max-width: 786px)  {
+  
+  .sol-detail-wrap .container .details.right .img-wrap img[alt="onimg"] {
+    left: 300px;
+  }
 }
 
 /* 화면 너비 0 ~ 768px */
@@ -151,7 +171,7 @@
   /* sol-wrap */
 
   .sol-wrap {
-    padding-top: 108px;
+    padding: 0;
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -160,6 +180,7 @@
   .sol-wrap .container .sol-top .top-tit {
     font-size: 29px;
     line-height: 1.3;
+    padding-top: 108px;
   }
 
   .sol-wrap .container .sol-top .top-txt {
@@ -168,8 +189,11 @@
     line-height: 1.5;
   }
 
-  .sol-wrap .container .sol-top .btn-package {
+  .sol-wrap .container .sol-top .package-wrap {
     margin-top: 40px;
+  }
+
+  .sol-wrap .container .sol-top .btn-package {
     padding: 0 7.518%;
     height: 55px;
   }
@@ -389,6 +413,118 @@
     display: none;
   }
 
+  /* to-incruit */
 
+  .to-incruit {
+    padding: 54px 0 25px;
+  }
 
+  .to-incruit .container .t-tit {
+    font-size: 26px;
+  }
+
+  .to-incruit .container .t-txt {
+    margin-top: 12px;
+    margin-bottom: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .to-incruit .container .workSwiper .swiper-wrapper ul li {
+    width: 40%;
+    height: 70px;
+  }
+
+  /* exper-wrap */
+
+  .exper-wrap {
+    padding: 54px 16px 50px;
+  }
+
+  .exper-wrap .container .t-tit {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 600;
+  }
+
+  .exper-wrap .container .t-txt {
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .exper-wrap .container .btn-box {
+    margin-top: 29PX;
+  }
+
+  .exper-wrap .container .btn-box button {
+    height: 55px;
+    font-size: 16px;
+  }
+
+  .exper-wrap .container .btn-box button.btn-freeExper::after,
+  .exper-wrap .container .btn-box button.btn-inquiry::after {
+    right: 20px;
+  }
+
+  /* footer */
+
+  .footer .container {
+    margin: 0 16px;
+  }
+
+  .footer .container div {
+    line-height: 20px;
+  }
+
+  .footer .container address div:nth-child(1) span:nth-child(1){
+    display: block;
+  }
+
+  .footer .container address div:nth-child(1) span:nth-child(2) {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .footer .container address div:nth-child(1) span:nth-child(2):before {
+    display: none;
+  } 
+
+  .footer .container address div:nth-child(2) span:nth-child(3) {
+    display: block;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .footer .container address div:nth-child(2) span:nth-child(3)::before {
+    display: none;
+  }
+
+  /* .incruit-bg */
+  .sol-wrap .container .sol-top .incruit-bg {
+    top: 53.6%;
+    height: 46px;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  .ask-btn-wrap {
+    bottom: 14px;
+    right: 16px
+  }
+
+  .ask-btn-wrap button {
+    width: 46px;
+    height: 46px;
+  }
+
+  .ask-btn-wrap button.ask-btn {
+    background-size: 21px auto;
+  }
+  
+  .ask-btn-wrap button.top-btn  {
+    background-size: 15px auto;
+  }
 }
